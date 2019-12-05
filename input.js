@@ -20,6 +20,7 @@ const handleUserInput = (key) => {
   } else if (key === 's'){
     connection.write("Move: down");
   }
+  connection.write("Say: lalala");
 }
 
 const setupInput = function (conn) {
